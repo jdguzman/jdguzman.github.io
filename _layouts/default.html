@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>{{ page.title }}</title>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+
+    <link href='http://fonts.googleapis.com/css?family=Yellowtail' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900,100italic,300italic,400italic,500italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class='header'>
+      <div class='container'>
+        <div class='row'>
+          <div class='col-md-12'>
+            <div class='site-name'>
+              <h1>J.D. Guzman</h1>
+            </div>
+            <div class='site-social text-right'>
+              <a href="http://twitter.com/jd_guzman">
+                <span class='fa fa-twitter'></span>
+              </a>
+              <a href="http://facebook.com/juan.daniel.guzman">
+                <span class='fa fa-facebook'></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr/>
+        <div class='row'>
+          <div class='col-md-12 site-menu'>
+            <a class='menu-item' href='/'>Portfolio</a>
+            <a class='menu-item' href='/cv.html'>CV</a>
+            <a class='menu-item' href='/about.html'>About</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='container main-content'>
+      <div class="scroll-top left">
+        <a href="#"><span class="glyphicon glyphicon-chevron-up"></span></a>
+      </div>
+
+      {{ content }}
+    </div>
+    <div class='footer'>
+      <div class='copyright'>&copy; J.D. Guzman 2013</div>
+    </div>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+    <script src='/js/bootstrap.js'></script>
+    <script src='/js/main.js'></script>
+  </body>
+</html>

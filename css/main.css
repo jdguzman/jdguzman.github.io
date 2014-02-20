@@ -1,0 +1,156 @@
+/* Color Scheme Designer scheme url: http://colorschemedesigner.com/#3r31T7TrGw0w0 */
+
+body {
+  padding: 0px;
+  background: #f5f5f5;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+a {
+  color: #23495a;
+  font-size: 1.1em;
+}
+
+hr {
+  color: #23495a;
+  border-color: #23495a;
+  background-color: #23495a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 500;
+}
+
+.header hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.site-name h1 {
+  font-family: "Yellowtail";
+  color: #23495a;
+}
+
+.header {
+  width: 100%;
+  background: #acbdc5;
+  padding: 10px 0px;
+  z-index: 1000;
+}
+  
+.header .site-name {
+  float: left;
+  color: #8e4736;
+}
+
+.header .site-menu {
+  text-align: center;
+}
+
+.header .site-menu a {
+  padding-right: 1.5em;
+}
+
+.header .site-social {
+  float: right;
+  margin-top: 25px;
+}
+
+.header .site-social a {
+  padding-left: 0.5em;
+  font-size: 1.5em;
+}
+
+.header .site-social a:hover {
+  text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+  background: #23495a;
+  padding: 10px 0px;
+  text-align: center;
+  color: #acbdc5;
+  z-index: 1000;
+}
+
+.main-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.center {
+  text-align: center;
+}
+
+.image-preview {
+  width: 100%;
+}
+
+.small-top-margin {
+  margin-top: 25px;
+}
+
+.medium-top-margin {
+  margin-top: 50px;
+}
+
+.large-top-margin {
+  margin-top: 75px;
+}
+
+.medium-padding {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.details ul {
+  list-style: none;
+  padding-left: 15px;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 60px;
+}
+
+.scroll-top a span {
+  background-color: #2a6496;
+  padding: 10px 10px 12px 12px;
+  text-align: center !important;
+  border-radius: 19px;
+  color: #dbdbdb;
+}
+
+.scroll-top.left {
+  left: 50%;
+  z-index: 10;
+}
+
+.scroll-top.right {
+  right: 50px
+}
+
+.portrait {
+  width: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 100px;
+}
+
+.portrait img {
+  width: 200px;
+}
+
+#cv h3, #cv h4, #bio h3, #bio h4 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#cv h5, #bio h5 {
+  font-size: 0.85em;
+  font-weight: normal;
+}
