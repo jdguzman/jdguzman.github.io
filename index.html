@@ -3,16 +3,25 @@ layout: default
 title: JD Guzman - Portfolio
 ---
 
-<!-- <div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div> -->
-
 <div class="row portfolio-thumbs">
+  <a href="#fusion" title="Fusion - Bluewater, Inc." data-offset="fusion">
+    <div class="col-md-3 center">
+      <img class="image-preview" src="/images/fusion.png">
+      <h3 class="heading">Fusion - Bluewater, Inc.</h3>
+      <div class="description">
+        1 to 1 Marketing platform for leading franchise marketing agency.
+      </div>
+    </div>
+  </a>
+  <a href="#dfc" title="Devs For Change" data-offset="dfc">
+    <div class="col-md-3 center">
+      <img class="image-preview" src="/images/dfc.png">
+      <h3 class="heading">Devs For Change</h3>
+      <div class="description">
+        Non-profit organization that focuses on mentoring new developers, designers, UI/UX, and project management professionals.
+      </div>
+    </div>
+  </a>
   <a href="#jrlr" title="Journal Record - Legislative Report" data-offset="jrlr">
     <div class="col-md-3 center">
       <img class="image-preview" src="/images/jrlr.png">
@@ -31,6 +40,9 @@ title: JD Guzman - Portfolio
       </div>
     </div>
   </a>
+</div>
+
+<div class="row small-top-margin portfolio-thumbs">
   <a href="#lisa" title="LISA USA" data-offset="lisa">
     <div class="col-md-3 center">
       <img class="image-preview" src="/images/lisa.png">
@@ -49,11 +61,8 @@ title: JD Guzman - Portfolio
       </div>
     </div>
   </a>
-</div>
-
-<div class="row small-top-margin portfolio-thumbs">
   <a href="#chusa-crm" title="Credit Help - CRM" data-offset="chusa-crm">
-    <div class="col-md-3 center col-md-offset-3">
+    <div class="col-md-3 center">
       <img class="image-preview" src="/images/chusa-crm.png">
       <h3 class="heading">Credit Help - CRM</h3>
       <div class="description">
@@ -73,7 +82,91 @@ title: JD Guzman - Portfolio
 </div>
 
 <div id="portfolio-details">
+  <div id="fusion" class="row large-top-margin">
+    <div class="col-md-10 col-md-offset-1">
+      <h3>Fusion</h3>
+      <p>
+        Bluewater, Inc. is a leading 1 to 1 franchise marketing agency.  Fusion is the platform that we are building to bring their processes into the digital age.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3 col-md-offset-1 small-top-margin">
+      <div class="details">
+        <h4>Cient:</h4>
+        <ul>
+          <li>Bluewater Brand, Inc.</li>
+        </ul>
+        <h4>Roles:</h4>
+        <ul>
+          <li>Architect</li>
+          <li>Developer</li>
+        </ul>
+        <h4>Technologies:</h4>
+        <ul>
+          <li>Ruby on Rails</li>
+          <li>Apache</li>
+          <li>Passenger</li>
+          <li>MySql</li>
+          <li>Redis</li>
+          <li>Bootstrap</li>
+          <li>jQuery</li>
+          <li>Ansible</li>
+          <li>AWS</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-7">
+      <img class="image-preview" src="/images/fusion.png">
+    </div>
+  </div>
+
+  <div id="dfc" class="row large-top-margin">
+    <div class="col-md-10 col-md-offset-1">
+      <h3>Devs For Change</h3>
+      <p>
+        Devs for change main website.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3 col-md-offset-1 small-top-margin">
+      <div class="details">
+        <h4>Cient:</h4>
+        <ul>
+          <li>Devs For Change</li>
+        </ul>
+        <h4>Roles:</h4>
+        <ul>
+          <li>Architect</li>
+          <li>Developer</li>
+        </ul>
+        <h4>Technologies:</h4>
+        <ul>
+          <li>Ruby on Rails</li>
+          <li>Heroku</li>
+          <li>MongoDB</li>
+          <li>Redis</li>
+          <li>Bootstrap</li>
+          <li>jQuery</li>
+          <li>Locomotive</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-7">
+      <img class="image-preview" src="/images/dfc.png">
+    </div>
+  </div>
+
   <div id="jrlr" class="row large-top-margin">
+    <div class="col-md-10 col-md-offset-1">
+      <h3>Journal Record - Legislative Report</h3>
+      <p>
+        While working with The Dolan Media Company I was tasked with developing a single state legislative product.  The app serves as a resource for lobbyists or other people interested in a state's legislation.  Similar to the 50 state product but this offers more in depth analysis of a single state's legislation as well as various tracking and reporting tools.
+      </p>
+    </div>
+  </div>
+  <div class="row">
     <div class="col-md-3 col-md-offset-1 small-top-margin">
       <div class="details">
         <h4>Cient:</h4>
@@ -103,16 +196,16 @@ title: JD Guzman - Portfolio
       <img class="image-preview" src="/images/jrlr.png">
     </div>
   </div>
-  <div class="row">
+
+  <div id="pimdir" class="row large-top-margin">
     <div class="col-md-10 col-md-offset-1">
-      <h3>Politics in Minnesota - Directory</h3>
-      <p>
-        While working at The Dolan Media Company I was tasked with developing a single state legislative product.  The app serves as a resource for lobbyists or other people interested in a state's legislation.  Similar to the 50 state product but this offers more in depth analysis of a single state's legislation as well as various tracking and reporting tools.
+      <h3 class=>Politics in Minnesota - Directory</h3>
+      <p class=>
+        While working with The Dolan Media Company I was tasked with developing a directory application for their single state legislative products.  The app serves as a resources for lobbyists or other people interested in a state's legislative members.  We rolled the app out in Minnesota and are currently in the process of rolling the same out for OK and AZ.
       </p>
     </div>
   </div>
-
-  <div id='pimdir' class="row large-top-margin">
+  <div class="row">
     <div class="col-md-3 col-md-offset-1 small-top-margin">
       <div class="details">
         <h4>Cient:</h4>
@@ -142,16 +235,16 @@ title: JD Guzman - Portfolio
       <img class="image-preview" src="/images/pimdir.png">
     </div>
   </div>
-  <div class="row">
+
+  <div id="lisa" class="row large-top-margin">
     <div class="col-md-10 col-md-offset-1">
-      <h3 class=>Politics in Minnesota - Directory</h3>
-      <p class=>
-        While working at The Dolan Media Company I was tasked with developing a directory application for their single state legislative products.  The app serves as a resources for lobbyists or other people interested in a state's legislative members.  We rolled the app out in Minnesota and are currently in the process of rolling the same out for OK and AZ.
+      <h3>LISA</h3>
+      <p>
+        While working with The Dolan Media Company I was tasked with developing a 50 state legislative services app.  The app allowed prospective clients to track legislation they had interest in across all 50 states.  Using Sunspot/Solr I helped design and build a flexible search infrastructure that was used by the LISA app but also served as a "vertical" for other apps within Dolan. A secondary app was made that collected data from all the 50 states through scraping and APIs.
       </p>
     </div>
   </div>
-
-  <div id="lisa" class="row large-top-margin">
+  <div class="row">
     <div class="col-md-3 col-md-offset-1 small-top-margin">
       <div class="details">
         <h4>Cient:</h4>
@@ -181,16 +274,16 @@ title: JD Guzman - Portfolio
       <img class="image-preview" src="/images/lisa.png">
     </div>
   </div>
-  <div class="row">
+
+  <div id="tbbed" class="row large-top-margin">
     <div class="col-md-10 col-md-offset-1">
-      <h3>The Dolan Company</h3>
+      <h3>The Butcher's Block Eats and Drinks</h3>
       <p>
-        While working at The Dolan Media Company I was tasked with developing a 50 state legislative services app.  The app allowed prospective clients to track legislation they had interest in across all 50 states.  Using Sunspot/Solr I helped design and build a flexible search infrastructure that was used by the LISA app but also served as a "vertical" for other apps within Dolan. A secondary app was made that collected data from all the 50 states through scraping and APIs.
+        For the design of their new website The Butcher's block contracted me to design and develop their online and print presence. The requirements were to produce and elegant and modern appearence that allowed the food and ambiance to be showcased. All aspects of the project were handled by myself, from custom coding of the wordpress theme to photography/videography.
       </p>
     </div>
   </div>
-
-  <div id="tbbed" class="row large-top-margin">
+  <div class="row">
     <div class="col-md-3 col-md-offset-1 small-top-margin">
       <div class="details">
         <h4>Cient:</h4>
@@ -215,16 +308,16 @@ title: JD Guzman - Portfolio
       <img class="image-preview" src="/images/tbbed.png">
     </div>
   </div>
-  <div class="row">
+
+  <div id="chusa-crm" class="row large-top-margin">
     <div class="col-md-10 col-md-offset-1">
-      <h3>The Butcher's Block Eats and Drinks</h3>
+      <h3>Credit Help USA - CRM</h3>
       <p>
-        For the design of their new website The Butcher's block contracted me to design and develop their online and print presence. The requirements were to produce and elegant and modern appearence that allowed the food and ambiance to be showcased. All aspects of the project were handled by myself, from custom coding of the wordpress theme to photography/videography.
+        When Credit Help USA needed a customized CRM solution I helped them develop a bespoke solution for their industry. All aspects of the customer interaction are maintained through this app making it easy for it's users to address a customer's needs. From billing to credit bureau dispute management this custom application centralizes Credit Help's workflow.
       </p>
     </div>
   </div>
-
-  <div id="chusa-crm" class="row large-top-margin">
+  <div class="row">
     <div class="col-md-3 col-md-offset-1 small-top-margin">
       <div class="details">
         <h4>Cient:</h4>
@@ -253,16 +346,16 @@ title: JD Guzman - Portfolio
       <img class="image-preview" src="/images/chusa-crm.png">
     </div>
   </div>
-  <div class="row">
+
+  <div id="chusa" class="row large-top-margin">
     <div class="col-md-10 col-md-offset-1">
-      <h3>Credit Help USA - CRM</h3>
+      <h3>Credit Help USA</h3>
       <p>
-        When Credit Help USA needed a customized CRM solution I helped them develop a bespoke solution for their industry. All aspects of the customer interaction are maintained through this app making it easy for it's users to address a customer's needs. From billing to credit bureau dispute management this custom application centralizes Credit Help's workflow.
+        For the redesign of Credit Help USA's website a wordpress deployment was used. The end result had to be something that could be easily managed by anyone at the company while maintaining a modern look and feel.  Some customization was done to the theme to make it fit the requirements of the company.
       </p>
     </div>
   </div>
-
-  <div id="chusa" class="row large-top-margin">
+  <div class="row">
     <div class="col-md-3 col-md-offset-1 small-top-margin">
       <div class="details">
         <h4>Cient:</h4>
@@ -284,14 +377,6 @@ title: JD Guzman - Portfolio
     </div>
     <div class="col-md-7">
       <img class="image-preview" src="/images/chusa.png">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1">
-      <h3>Credit Help USA</h3>
-      <p>
-        For the redesign of Credit Help USA's website a wordpress deployment was used. The end result had to be something that could be easily managed by anyone at the company while maintaining a modern look and feel.  Some customization was done to the theme to make it fit the requirements of the company.
-      </p>
     </div>
   </div>
 </div>
